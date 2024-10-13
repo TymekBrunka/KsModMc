@@ -5,6 +5,9 @@ import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import timi.mimi.kys.item.ModItemGroups;
+import timi.mimi.kys.item.ModItems;
+
 public class Kys implements ModInitializer {
 	public static final String MOD_ID = "kys";
 
@@ -20,5 +23,7 @@ public class Kys implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+        ModItems.registerModItems();
+        ModItemGroups.registerItemGroups();
 	}
 }
