@@ -1,7 +1,7 @@
 package timi.mimi.kys.item;
 
 import timi.mimi.kys.Kys;
-import timi.mimi.kys.item.ModItems;
+// import timi.mimi.kys.item.ModItems;
 
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -11,7 +11,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
-import net.minecraft.item.ItemGroup.DisplayContext;
+// import net.minecraft.item.ItemGroup.DisplayContext;
 
 public class ModItemGroups {
 
@@ -23,6 +23,7 @@ public class ModItemGroups {
             .icon(() -> new ItemStack(Items.APPLE))
             .entries((DisplayContext, entries) -> {
                 entries.add(ModItems.DIRT_COIN);
+                entries.add(ModItems.DIRT_SWORD);
             })
             .build());
 

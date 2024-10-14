@@ -1,3 +1,5 @@
 {
-    "item.kys.dirt_coin": "Dirt Coin"
+    "kys.itemgroup": "Kys mod items lol",
+    "item.kys.dirt_coin": "Dirt Coin",
+    "item.kys.dirt_sword": "Dirt Sword"
 }
